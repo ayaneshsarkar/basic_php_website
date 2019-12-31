@@ -1,6 +1,6 @@
 <?php 
   $get_html_item = function($id, $item) {
-    $output = "<li><a href ='#'>"
+    $output = "<li><a href ='details.php?id=" . $id . "'>"
               . "<img src='" . $item["img"] ."' alt='" .$item["title"] . "' />"
               . "<p>View Details</p>"
             . "</a></li>";
