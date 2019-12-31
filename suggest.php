@@ -60,10 +60,10 @@ include("inc/header.php");
             <th><label for="details">Suggest Item Details</label></th>
             <td><textarea name="details" id="details"></textarea></td>
           </tr>
-          <tr style="display: none">
+          <tr style="display:none">
             <th><label for="address">Address</label></th>
             <td><input type="text" id="address" name="address"></td>
-            <p>Please leave this field blank</p>
+            <p style="display:none">Please leave this field blank</p>
           </tr>
         </table>
 
