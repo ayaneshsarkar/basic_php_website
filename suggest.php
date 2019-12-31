@@ -111,7 +111,7 @@ include("inc/header.php");
           <tr style="display:none">
             <th><label for="address">Address</label></th>
             <td><input type="text" id="address" name="address"></td>
-            <p style="display:none">Please leave this field blank</p>
+            <p style="display:none">Please leave this field blank, or you will be banned!</p>
           </tr>
         </table>
 
