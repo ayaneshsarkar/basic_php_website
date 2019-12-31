@@ -25,7 +25,8 @@ include("inc/header.php");
   
   <div class="section catalog page">
     <div class="wrapper">
-      <h1><?php echo "<a href='catalog.php'>Full Catalog</a> &gt; "; echo $pageTitle; ?></h1>
+      <h1><?php echo "<a href='catalog.php'>Full Catalog</a> &gt; "; 
+      if($pageTitle != 'Full Catalog') { echo $pageTitle; } ?></h1>
       <ul class="items">
         <?php 
 					$categories = $array_category($catalog, $section);
