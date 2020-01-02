@@ -3,7 +3,7 @@
 include("inc/data.php");
 include("inc/functions.php");
 
-$pageTitle = 'Full Catalog!';
+$pageTitle = 'Full Catalog';
 $section = null;
 
 if (isset($_GET["cat"])) {
